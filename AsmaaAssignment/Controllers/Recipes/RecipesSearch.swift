@@ -125,14 +125,7 @@ extension RecipesSearch: UICollectionViewDelegate, UICollectionViewDataSource, U
                 searchData = caregoryFilter
                 self.recipesList.reloadData()
             }
-            
-            
-//            searchData = searchData?.compactMap{($0.recipe?.healthLabels?) == cellLblText{
-//                self.recipesList.reloadData()
-//            }}
-            
-            
-//            self.recipesList.reloadData()
+
         }
      
     }
@@ -191,14 +184,6 @@ extension RecipesSearch: UISearchResultsUpdating, UISearchBarDelegate{
         }
         self.searchText.append(searchText)
     }
-    
-//    // filter table view by data which user write it at searchBar
-//    func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
-//
-//
-//
-//    }
-
     
     // cancel search button
     func searchBarCancelButtonClicked(_ searchBar: UISearchBar) {
