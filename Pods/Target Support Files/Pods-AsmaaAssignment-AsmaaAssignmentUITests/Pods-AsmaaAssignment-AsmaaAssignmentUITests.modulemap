@@ -1,0 +1,6 @@
+framework module Pods_AsmaaAssignment_AsmaaAssignmentUITests {
+  umbrella header "Pods-AsmaaAssignment-AsmaaAssignmentUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
